@@ -8,7 +8,7 @@ $("#search-btn").on("click", function (event) {
 
     event.preventDefault();
 
-    var keyword = $("#search-input").val().trim();
+    var keyword = $("#search-input").val().trim(); // Use lifehack and productive as keywords
     var queryString = "?q=" + keyword;
     var lang = "&language=en";
     var source = "&sources=time,the-new-york-times,the-huffington-post"
